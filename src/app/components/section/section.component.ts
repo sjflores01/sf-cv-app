@@ -1,4 +1,5 @@
-import { Component, Inject, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Content } from 'src/app/classes/content';
 
 @Component({
   selector: 'app-section',
@@ -6,9 +7,6 @@ import { Component, Inject, Input } from '@angular/core';
   styleUrls: ['./section.component.scss']
 })
 export class SectionComponent {
-  @Input() section: SectionComponent;
-  name: string = '';
-  constructor(@Inject(SectionComponent) section: SectionComponent){
-    this.section = section
-  }
+  @Input() content : Content = new Content('','');
+
 }

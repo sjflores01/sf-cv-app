@@ -1,2 +1,4 @@
 <app-sidebar></app-sidebar>
-<app-section *ngFor="let section of sections" [section] = "section"></app-section>
+<app-about-me></app-about-me>
+<app-section *ngFor="let section of sections"
+[content]="section"></app-section>
