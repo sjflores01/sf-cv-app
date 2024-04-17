@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app/app.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { ContentComponent } from './components/content/content.component';
+import { SectionComponent } from './components/section/section.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    ContentComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule
