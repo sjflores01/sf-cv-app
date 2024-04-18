@@ -7,6 +7,6 @@ import { Content } from 'src/app/classes/content';
   styleUrls: ['./section.component.scss']
 })
 export class SectionComponent {
-  @Input() content : Content = new Content('','');
+  @Input() content : Content = new Content();
 
 }
