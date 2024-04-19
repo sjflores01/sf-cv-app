@@ -1,7 +1,9 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     background-color: beige;
-    text-align: center;
 }
 
 .img-container {
@@ -12,4 +14,7 @@
         border-width: 5px;
         border-radius: 50%;
     }
+}
+
+.text {
 }

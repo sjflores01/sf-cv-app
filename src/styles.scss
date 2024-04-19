@@ -26,7 +26,16 @@ body {
     margin-left: 0;
 }
 
+.container {
+    text-align: center;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.text {
+    font-size: 24px;
+    width: 60%;
 }
