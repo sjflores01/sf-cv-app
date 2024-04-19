@@ -1,4 +1,15 @@
 .container {
     position: relative;
     background-color: beige;
+    text-align: center;
+}
+
+.img-container {
+    img {
+        width: 100px;
+        height: 100px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 50%;
+    }
 }

@@ -1,5 +1,29 @@
+@import './app/components/app/app.component.scss';
+
+@font-face {
+    font-family: 'Internet';
+    src: url('./assets/fonts/LTInternet-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Internet-Bold';
+    src: url('./assets/fonts/LTInternet-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+$font-primary: 'Internet';
+$font-primary-bold: 'Internet-Bold';
+
+body {
+    font-family: $font-primary;
+    background-color: burlywood;
+    height: $height-size;
+    width: $width-size;
+}
+
 .sb-margin {
-    margin-left: 24.5%;
+    margin-left: 0;
 }
 
 .flex-row {

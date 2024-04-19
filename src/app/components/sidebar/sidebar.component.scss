@@ -1,8 +1,15 @@
-.side-bar-container {
+@import '../app/app.component.scss';
+
+.side-bar-container{
     position: absolute;
-    height: 100%;
+    height: $height-size;
     width: 25%;
     background-color: burlywood;
-    left: 0;
+    left: -200px;
+    transition: 0.3s;
     top: 0;
+}
+
+.side-bar-container:hover {
+    left: 0;
 }

@@ -1,12 +1,26 @@
-import { Component } from '@angular/core';
-import { SectionComponent } from '../section/section.component';
-import { Content } from 'src/app/classes/content';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Santiago Flores';
+  public screenWidth : any;
+  public screenHeight : any;
+  ngOnInit(): void {
+    this.screenWidth = window.innerWidth;
+    this.screenHeight = window.innerHeight;
+    document.documentElement.style.setProperty('--height-size', String(this.screenHeight) + "px");
+    document.documentElement.style.setProperty('--width-size', String(this.screenWidth) + "px");
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    this.screenWidth = window.innerWidth;
+    this.screenHeight = window.innerHeight;
+    document.documentElement.style.setProperty('--height-size', String(this.screenHeight) + "px");
+    document.documentElement.style.setProperty('--width-size', String(this.screenWidth) + "px");
+  }
 }
