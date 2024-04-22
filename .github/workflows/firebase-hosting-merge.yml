@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:      
       - name: Check out latest code from master branch
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Install dependencies
-      - run: npm install
+        run: npm install
 
       - name: Build
-      - run: npm run build
+        run: npm run build
 
       - name: Deploy Firebase
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SF_CV_APP }}'
