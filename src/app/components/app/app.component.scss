@@ -1,2 +1,7 @@
-$height-size : var(--height-size);
-$width-size : var(--width-size);
+$height-size : var(--height-size) - 10px;
+$width-size : var(--width-size) - 10px;
+
+$font-primary: 'Garet';
+$font-primary-bold: 'Garet-Bold';
+$font-color: #545454;
+$side-bar-color: #DBE1D3;

@@ -1,23 +1,21 @@
 @import './app/components/app/app.component.scss';
 
 @font-face {
-    font-family: 'Internet';
-    src: url('./assets/fonts/LTInternet-Regular.ttf') format('truetype');
+    font-family: 'Garet';
+    src: url('./assets/fonts/Garet-Book.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Internet-Bold';
-    src: url('./assets/fonts/LTInternet-Bold.ttf') format('truetype');
+    font-family: 'Garet-Bold';
+    src: url('./assets/fonts/Garet-Heavy.ttf') format('truetype');
     font-style: normal;
 }
 
-$font-primary: 'Internet';
-$font-primary-bold: 'Internet-Bold';
-
 body {
     font-family: $font-primary;
-    background-color: burlywood;
+    color: $font-color;
+    background-color: #fff;
     height: $height-size;
     width: $width-size;
 }
@@ -27,7 +25,7 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: right;
 }
 
 .flex-row {
@@ -38,4 +36,24 @@ body {
 
 .text {
     font-size: 24px;
+    text-align: right;
+}
+
+.title {
+    text-align: left;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-bottom-color: $side-bar-color;
+
+    h1 {
+        margin-bottom: -5px;
+    }
+}
+
+.subtitle
+
+.border-bottom {
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-bottom-color: $side-bar-color;
 }

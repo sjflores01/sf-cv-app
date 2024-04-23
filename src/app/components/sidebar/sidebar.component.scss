@@ -3,13 +3,60 @@
 .side-bar-container{
     position: absolute;
     height: $height-size;
-    width: 25%;
-    background-color: burlywood;
-    left: -200px;
+    width: 30%;
+    background-color: $side-bar-color;
+    // right: -220px;
+    right: 0px;
     transition: 0.3s;
     top: 0;
+    padding-right: 12px;
 }
 
-.side-bar-container:hover {
-    left: 0;
+// .side-bar-container:hover {
+//     right: 0;
+// }
+
+.title {
+    text-align: right;
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.subtitle {
+    text-align: right;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.icon {
+    opacity: 65%;
+    img {
+        width: 40px;
+        height: 40px
+    }
+    .links {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+}
+
+.content {
+    align-self: center;
+    text-align: right;
+    a {
+        text-decoration: none;
+        color: $font-color;
+    }
 }
