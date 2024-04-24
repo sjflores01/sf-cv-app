@@ -10,6 +10,8 @@ import { WorkingExpComponent } from './components/working-exp/working-exp.compon
 import { FormationComponent } from './components/formation/formation.component';
 import { ToolsComponent } from './components/tools/tools.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     SkillsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

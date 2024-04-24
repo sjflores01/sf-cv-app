@@ -1,0 +1,9 @@
+<div class="title"><h1>Skills</h1></div>
+<div class="content">
+    <table>
+        <tr *ngFor="let skill of skills">
+          <td class="name">{{skill.Name}}</td>
+          <td class="progress"><mat-progress-bar mode="buffer" value="{{skill.InitProgress}}"></mat-progress-bar></td>
+        </tr>
+    </table>
+</div>
