@@ -1,9 +1,16 @@
 
-<div>
+<div class="grid-container">
+  <div class="cv-content-container">
     <app-about-me></app-about-me>
     <app-working-exp></app-working-exp>
     <app-formation></app-formation>
-</div>
-<div>
+  </div>
+  <div [@fade]="isVisible ? 'visible' : 'hidden'" class="sidebutton-container">
+    <button
+    [class.sidebutton]="!showSideBar"
+    [class.sidebutton-active]="showSideBar" (click)="sideButtonClick()"></button>
+  </div>
+  <div class="sidebar" *ngIf="showSideBar">
     <app-sidebar></app-sidebar>
+  </div>
 </div>

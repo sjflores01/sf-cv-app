@@ -3,7 +3,7 @@
     <table>
         <tr *ngFor="let skill of skills">
           <td class="name">{{skill.Name}}</td>
-          <td class="progress"><mat-progress-bar mode="buffer" value="{{skill.InitProgress}}"></mat-progress-bar></td>
+          <td class="progress"><mat-progress-bar mode="determinate" value="{{skill.InitProgress}}"></mat-progress-bar></td>
         </tr>
     </table>
 </div>

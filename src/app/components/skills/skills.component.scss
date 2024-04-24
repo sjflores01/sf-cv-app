@@ -1,3 +1,5 @@
+@import '../app/app.component.scss';
+
 .title {
     text-align: right;
 }
@@ -6,9 +8,16 @@ table {
     width: 100%;
 
     .name {
-        width:auto
+        width:auto;
+        padding-left: 16px;
     }
     .progress {
         width: 70%;
     }
+}
+
+mat-progress-bar {
+  opacity: 65%;
+  background-color: #FFF;
+  border-radius: 2px;
 }

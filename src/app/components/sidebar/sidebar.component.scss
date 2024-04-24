@@ -1,9 +1,8 @@
 @import '../app/app.component.scss';
 
 .side-bar-container{
-    position: absolute;
-    height: 100%;
-    width: 30%;
+    position:relative;
+    width: 99%;
     background-color: $side-bar-color;
     // right: -220px;
     right: 0px;

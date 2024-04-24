@@ -8,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit{
   ngAfterViewInit():void {
     this.skills.forEach(skill => {
-      this.progressBarAnimation(skill)
+      if (skill.InitProgress < skill.Progress) {
+        this.progressBarAnimation(skill)
+      }
     });
   }
   ngOnInit(): void {
-    
   }
   public skills : any[] =
   [
@@ -22,7 +23,7 @@ export class SkillsComponent implements OnInit{
         Progress : 100
       },
       {
-        Name : '.NET#',
+        Name : '.NET',
         InitProgress : 0,
         Progress : 100
       },
@@ -59,17 +60,18 @@ export class SkillsComponent implements OnInit{
   ];
 
   progressBarAnimation(skill : any) {
-    // setInterval(() => this.progressBar(skill),100);
+    setInterval(() => this.progressBar(skill),1);
   }
 
   progressBar(skill : any) {
-    if (skill.InitProgress == 0) {  
-      skill.InitProgress = skill.InitProgress + 1  
-    } else {  
+    if (skill.InitProgress == 0) {
       skill.InitProgress = skill.InitProgress + 1;
-      if (skill.InitProgress + 1 > skill.Progress) {
-        skill.InitProgress == skill.Progress;
-      }
-    }  
+    }
+    else if (skill.InitProgress + 1 > skill.Progress) {
+      skill.InitProgress == skill.Progress;
+    }
+    else {
+      skill.InitProgress = skill.InitProgress + 1;
+    }
   }
 }
