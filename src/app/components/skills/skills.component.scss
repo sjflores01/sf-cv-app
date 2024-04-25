@@ -1,12 +1,18 @@
 @import '../app/app.component.scss';
 
+@media only screen and (min-width: 900px) {
+  table {
+    font-size: 20px !important;
+  }
+}
+
 .title {
     text-align: right;
 }
 
 table {
     width: 100%;
-
+    font-size: 12px;
     .name {
         width:auto;
         padding-left: 16px;
