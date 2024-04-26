@@ -1,17 +1,23 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
+const fade = trigger('fade', [
+  state('visible', style({opacity: 1})),
+  state('hidden', style({opacity: 0})),
+  transition('visible <=> hidden', animate('2s ease-in-out')),
+])
+
+const scrollSideBar = trigger('scrollSideBar', [transition(':enter', [
+  style({
+    
+  }),animate('2s ease 0s 1 normal forwards')
+])])
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  animations: [
-    trigger('fade', [
-      state('visible', style({opacity: 1})),
-      state('hidden', style({opacity: 0})),
-      transition('visible <=> hidden', animate('2s ease-in-out')),
-    ])
-  ]
+  animations: [ fade, scrollSideBar ]
 })
 export class AppComponent implements OnInit {
   title = 'Santiago Flores';
@@ -48,5 +54,9 @@ export class AppComponent implements OnInit {
 
   fadeInAnimation(): void {
     this.isVisible = this.isVisible ? false : true;
+  }
+
+  onCollapseSideBar(showSideBar : boolean) {
+    this.showSideBar = showSideBar;
   }
 }

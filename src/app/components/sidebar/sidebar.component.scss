@@ -34,10 +34,6 @@
     margin-right: 12px;
 }
 
-// .side-bar-container:hover {
-//     right: 0;
-// }
-
 .title {
     text-align: right;
     h1 {
@@ -97,4 +93,18 @@
     list-style-type: none;
     padding-inline-start: 16px;
   }
+}
+
+.back-button {
+  background-color: transparent;
+  position:absolute;
+  border-width: 0;
+  .back-icon {
+    margin-left: 20px;
+    margin-top: 12px;
+    opacity: 65%;
+    transform: rotateY(180deg);
+    height: 16px;
+  }
+
 }

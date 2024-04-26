@@ -40,17 +40,17 @@ export class SkillsComponent implements OnInit{
       {
         Name : 'DOCKER',
         InitProgress : 0,
-        Progress : 30
+        Progress : 55
       },
       {
         Name : 'ELASTIC',
         InitProgress : 0,
-        Progress : 20
+        Progress : 40
       },
       {
         Name : 'REDIS',
         InitProgress : 0,
-        Progress : 30
+        Progress : 45
       },
       {
         Name : 'ANGULAR',
