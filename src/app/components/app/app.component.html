@@ -1,18 +1,2 @@
 
-<div class="grid-container">
-  <div class="cv-content-container">
-    <app-about-me></app-about-me>
-    <app-working-exp></app-working-exp>
-    <app-formation></app-formation>
-  </div>
-  <div [@fade]="isVisible ? 'visible' : 'hidden'" class="sidebutton-container">
-    <button
-    [class.sidebutton]="!showSideBar"
-    [class.sidebutton-active]="showSideBar" (click)="sideButtonClick()">
-    <img class="sidebutton-icon" src="../../../assets/icons/back-icon.png" alt="back-icon">
-  </button>
-  </div>
-  <div class="sidebar" *ngIf="showSideBar">
-    <app-sidebar (onClickCollapseSideBar)="onCollapseSideBar($event)"></app-sidebar>
-  </div>
-</div>
+<router-outlet></router-outlet>

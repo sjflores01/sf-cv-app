@@ -7,14 +7,10 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
   public showSideBar : boolean = true;
+  public messageText : string = 'Hey Santiago! I saw your CV and wanted to get in touch with you.'
   @Output() onClickCollapseSideBar = new EventEmitter<any>();
 
   ngOnInit(): void {
     this.showSideBar = true;
-  }
-  
-  collapseSideBar(){
-    this.showSideBar = false;
-    this.onClickCollapseSideBar.emit(this.showSideBar);
   }
 }

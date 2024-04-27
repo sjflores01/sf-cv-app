@@ -6,18 +6,11 @@ const fade = trigger('fade', [
   state('hidden', style({opacity: 0})),
   transition('visible <=> hidden', animate('2s ease-in-out')),
 ])
-
-const scrollSideBar = trigger('scrollSideBar', [transition(':enter', [
-  style({
-    
-  }),animate('2s ease 0s 1 normal forwards')
-])])
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  animations: [ fade, scrollSideBar ]
+  animations: [ fade ]
 })
 export class AppComponent implements OnInit {
   title = 'Santiago Flores';
