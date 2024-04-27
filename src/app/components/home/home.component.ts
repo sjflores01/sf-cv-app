@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   public showSideBar : boolean = false;
   public isVisible : boolean = false;
   ngOnInit(): void {
-    setInterval(() => this.fadeInAnimation(),2000);
+    setInterval(() => this.fadeInAnimation(),1000);
   }
 
   fadeInAnimation(): void {
