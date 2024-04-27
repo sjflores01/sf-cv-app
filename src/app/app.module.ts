@@ -12,29 +12,6 @@ import { ToolsComponent } from './components/tools/tools.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 
-@NgModule({
-  declarations: [
-AppComponent,
-    SidebarComponent,
-    ContentComponent,
-    SectionComponent,
-    AboutMeComponent,
-    WorkingExpComponent,
-    FormationComponent,
-    ToolsComponent,
-    SkillsComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatProgressBarModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
 export class AppModule { }

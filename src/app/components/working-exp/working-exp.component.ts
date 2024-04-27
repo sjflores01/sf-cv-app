@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Content } from 'src/app/classes/content';
 
 @Component({
-  selector: 'app-working-exp',
-  templateUrl: './working-exp.component.html',
-  styleUrls: ['./working-exp.component.scss']
+    selector: 'app-working-exp',
+    templateUrl: './working-exp.component.html',
+    styleUrls: ['./working-exp.component.scss'],
+    standalone: true
 })
 export class WorkingExpComponent implements OnInit{
   content : Content = new Content();
