@@ -1,12 +1,14 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { SkillsComponent } from '../skills/skills.component';
+import { animations } from 'src/app/classes/animations';
 
 @Component({
     selector: 'app-sidebar',
     templateUrl: './sidebar.component.html',
     styleUrls: ['./sidebar.component.scss'],
     standalone: true,
-    imports: [SkillsComponent]
+    imports: [SkillsComponent],
+    animations: [animations]
 })
 export class SidebarComponent implements OnInit {
   public showSideBar : boolean = true;

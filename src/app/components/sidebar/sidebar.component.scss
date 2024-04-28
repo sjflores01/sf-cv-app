@@ -1,5 +1,4 @@
 @import '../app/app.component.scss';
-
 @media only screen and (min-width: 900px) {
   .title {
     h1 {
@@ -22,16 +21,16 @@
     font-size: 20px !important;
   }
 }
-
 .side-bar-container{
     position:absolute;
-    height: 100%;
+    height: fit-content;
     width: 95%;
     background-color: $side-bar-color;
     right: 0px;
     padding-right: 16px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    view-transition-name: side-bar-container;
 }
 
 .title {

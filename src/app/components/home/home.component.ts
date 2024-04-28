@@ -4,17 +4,13 @@ import { RouterLink } from '@angular/router';
 import { FormationComponent } from '../formation/formation.component';
 import { WorkingExpComponent } from '../working-exp/working-exp.component';
 import { AboutMeComponent } from '../about-me/about-me.component';
+import { animations } from 'src/app/classes/animations';
 
-const fade = trigger('fade', [
-  state('visible', style({opacity: 1})),
-  state('hidden', style({opacity: 0})),
-  transition('visible <=> hidden', animate('2s ease-in-out')),
-])
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss'],
-    animations: [fade],
+    animations: animations,
     standalone: true,
     imports: [AboutMeComponent, WorkingExpComponent, FormationComponent, RouterLink]
 })
