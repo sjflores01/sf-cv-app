@@ -11,72 +11,6 @@
     src: url('./assets/fonts/Garet-Heavy.ttf') format('truetype');
     font-style: normal;
 }
-// @keyframes slide-from-left {
-// 	from {
-// 		opacity: 0;
-// 		transform: translateX(-250px);
-// 	}
-
-// 	to {
-// 		opacity: 1;
-// 		transform: translateX(0);
-// 	}
-// }
-// @keyframes slide-out-to-left {
-// 	from {
-// 		opacity: 0;
-// 		transform: translateX(0);
-// 	}
-
-// 	to {
-// 		opacity: 1;
-// 		transform: translateX(-250px);
-// 	}
-// }
-// @keyframes slide-from-right {
-// 	from {
-// 		opacity: 0;
-// 		transform: translateX(250px);
-// 	}
-
-// 	to {
-// 		opacity: 1;
-// 		transform: translateX(0);
-// 	}
-// }
-// @keyframes slide-out-to-right {
-// 	from {
-// 		opacity: 0;
-// 		transform: translateX(0px);
-// 	}
-
-// 	to {
-// 		opacity: 1;
-// 		transform: translateX(250px);
-// 	}
-// }
-
-// ::view-transition-old(root) {
-//   animation: slide-out-to-left 2s ease 0s 1 normal forwards;
-// }
-// ::view-transition-new(root) {
-//   animation: slide-from-left 2s ease 0s 1 normal forwards;
-// }
-// ::view-transition-old(side-button) {
-//   animation: slide-out-to-right 2s ease 0s 1 normal forwards;
-// }
-
-// ::view-transition-new(side-button) {
-//   animation: slide-from-right 2s ease 0s 1 normal forwards;
-// }
-
-// ::view-transition-old(side-bar-container) {
-//   animation: slide-out-to-right 2s ease 0s 1 normal forwards;
-// }
-
-// ::view-transition-new(side-bar-container) {
-//   animation: slide-from-right 2s ease 0s 1 normal forwards;
-// }
 
 body {
     font-family: $font-primary;
@@ -135,6 +69,7 @@ h3 {
 .cv-content-container {
   grid-area: col1;
   margin-left: 3px;
+  margin-bottom: 20px;
 }
 
 .sidebutton-container {
