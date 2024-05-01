@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, LOCALE_ID, OnInit } from '@angular/core';
 import { Content } from 'src/app/classes/content';
 
 @Component({
@@ -9,7 +9,13 @@ import { Content } from 'src/app/classes/content';
 })
 export class WorkingExpComponent implements OnInit{
   content : Content = new Content();
+  constructor(@Inject(LOCALE_ID) public locale: string){}
   ngOnInit(): void {
-    this.content.Title = 'Working Experience';
+    if (this.locale == 'es-AR') {
+      this.content.Title = 'Experiencia';
+    }
+    else {
+      this.content.Title = 'Working Experience';
+    }
   }
 }

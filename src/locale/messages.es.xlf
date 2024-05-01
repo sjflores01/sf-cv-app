@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ content.Title }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1338480611696165967" datatype="html">
+        <source>Formation</source>
+        <target>Formación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formation/formation.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2481725127646737870" datatype="html">
+        <source>Universidad Tecnológica Nacional (2017/2020)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formation/formation.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7245168261068648780" datatype="html">
+        <source>Graduated in Computer Programming.</source>
+        <target>Técnico Universitario en Programación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/formation/formation.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3092717108516693310" datatype="html">
+        <source>Santiago Flores</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6901531604019957317" datatype="html">
+        <source>Software Engineer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1949800099101277248" datatype="html">
+        <source>Languages</source>
+        <target>Idiomas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5322745329897806266" datatype="html">
+        <source>ESPAÑOL - NATIVE</source>
+        <target>ESPAÑOL - NATIVO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="152131370326318810" datatype="html">
+        <source>ENGLISH - C1 ADVANCED</source>
+        <target>INGLÉS - C1 AVANZADO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <target>Habilidades</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7845035389120085211" datatype="html">
+        <source>Sr NET Developer</source>
+        <target>Desarrollador NET Sr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="379688541169953039" datatype="html">
+        <source>Tienda Pago (Nov 2022 / Current Date)</source>
+        <target>Tienda Pago (Nov 2022 / Actualidad)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3836790277694470803" datatype="html">
+        <source> Working as both Backend Engineer and Fullstack Developer in a fast changing environment due to the nature of this startup, I have the oppotunity to learn about, not only about IT engineering processes, but also Analyst and Business day to day work, which challenges me everyday and puts my knowlegde to test. </source>
+        <target> Desarrollo de aplicaciones en diversas tecnologias del entorno .NET, en un ambiente de cambio rápido debido a la naturaleza de esta startup, tengo la oportunidad de aprender no solo sobre los procesos de ingeniería de IT, sino también sobre requerimientos de negocio, lo cual me desafía cada día y pone a prueba mi experiencia adquirida con los años. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4726217562941754173" datatype="html">
+        <source>Ssr NET Developer</source>
+        <target>Desarrollador NET Ssr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7750879951343681743" datatype="html">
+        <source>Globant Inc. (July 2021 / Nov 2022)</source>
+        <target>Globant SA (Julio 2021 / Nov 2022)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="302042453760187245" datatype="html">
+        <source> Working as a Backend Developer for several projects I had the oportunity to learn diverse technologies and took part in bussiness rules decisions, which expanded my knowledge and experience. </source>
+        <target> Desarrollo y mantenimiento de un bot conversacional de integracion con e-commerce montado en una arquitectura de microservicios dockerizados. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2056686055239611088" datatype="html">
+        <source>Fullstack Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7519806505628595394" datatype="html">
+        <source>Bizerba Argentina Inc. (September 2020 / July 2021)</source>
+        <target>Bizerba Argentina SA (Septiembre 2020 / Julio 2021)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4210569900816442753" datatype="html">
+        <source> Development of traceability systems for big clients. Working with different modules helped me to learn a lot about the Microsoft NET Framework environment in general. </source>
+        <target> Desarrollo de sistemas de trazabilidad para clientes importantes. Modulos variados que iban desde servicios de Windows, WinForms hasta aplicaciones Web con arquitectura MVC. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/working-exp/working-exp.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
